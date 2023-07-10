@@ -1,0 +1,44 @@
+     User Documentation: CSV to Airtable Data Transfer
+     This user documentation provides instructions for using the CSV to Airtable Data Transfer program. It describes the functionality of the program and provides step-by-step instructions for installation and usage. The target audience for this documentation includes users with varying levels of computer proficiency.
+     Program Overview
+     The CSV to Airtable Data Transfer program allows users to transfer data from a CSV file to either an Excel file (.xlsx) or an Airtable database. The program provides a command-line interface for interacting with the user and supports the following actions:
+1. Setting up Airtable configuration
+2. Converting a CSV file to an Excel file
+3. Sending data to an Airtable database
+     Prerequisites
+     Before using the program, ensure that you have the following:
+* Python: Make sure you have Python installed on your system. The program is compatible with Python 3.
+* CSV File: Prepare a CSV file containing the data you want to transfer.
+* API Key: Obtain an API key from Airtable. This key will be used for authentication.
+* Airtable Database: Create a database in Airtable where you want to transfer the data.
+* Dependencies: Install the required dependencies by running the command pip install -r requirements.txt in your command-line interface.
+     Installation
+     To install and set up the program, follow these steps:
+1. Clone the Repository: Clone the program's repository from GitHub using the command git clone <repository-url>. Replace <repository-url> with the URL of the repository.
+2. Navigate to the Program Directory: Open a command-line interface and navigate to the directory where the program is cloned.
+     Usage
+     To use the program, follow these steps:
+1. Set up Airtable Configuration:
+* Run the command python main.py.
+* Select option 1 to set up Airtable configuration.
+* Enter your Airtable API key, database ID, and table name as prompted.
+* Save the settings.
+2. Convert CSV to Excel:
+* Run the command python main.py.
+* Select option 2 to convert a CSV file to an Excel file.
+* Enter the path to the CSV file and the desired path for the Excel file as prompted.
+3. Send Data to Airtable:
+* Run the command python main.py.
+* Select option 3 to send data to Airtable.
+* If you have already set up Airtable configuration, proceed to the next step. Otherwise, follow the instructions in step 1 to set up the configuration.
+* Enter the path to the CSV file containing the data to be sent to Airtable.
+4. Exit the Program:
+* To exit the program, run the command python main.py and select option 4.
+     Troubleshooting
+* If you encounter any errors during the program's execution, refer to the error messages for guidance.
+* Ensure that the CSV file is correctly formatted and contains the necessary data.
+* Double-check the accuracy of the Airtable configuration, including the API key, database ID, and table name.
+     Conclusion
+     The CSV to Airtable Data Transfer program provides a convenient way to transfer data from a CSV file to an Excel file or an Airtable database. By following the installation and usage instructions provided in this documentation, you can easily configure the program and transfer your data seamlessly.
+     For further assistance or inquiries, please refer to the program's repository on GitHub or contact the program's developer.
+     
