@@ -38,7 +38,3 @@
 * If you encounter any errors during the program's execution, refer to the error messages for guidance.
 * Ensure that the CSV file is correctly formatted and contains the necessary data.
 * Double-check the accuracy of the Airtable configuration, including the API key, database ID, and table name.
-     Conclusion
-     The CSV to Airtable Data Transfer program provides a convenient way to transfer data from a CSV file to an Excel file or an Airtable database. By following the installation and usage instructions provided in this documentation, you can easily configure the program and transfer your data seamlessly.
-     For further assistance or inquiries, please refer to the program's repository on GitHub or contact the program's developer.
-     
